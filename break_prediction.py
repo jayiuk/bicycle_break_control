@@ -19,11 +19,8 @@ gv = GridSearchCV(estimator = rf, param_grid = params, scoring = 'accuracy', ref
 gv.fit(train_x, train_y)
 print(gv.best_params_)
 rf_clf = RandomForestClassifier(n_estimators = 10, max_depth = 100, criterion = 'gini', random_state = 20)
-def train(model, train, target):
-    model = model
-    train = train
-    target = target
 
+def train(model, train, target):
     result = model.fit(train, target)
     return result
 
