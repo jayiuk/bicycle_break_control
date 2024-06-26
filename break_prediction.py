@@ -29,9 +29,9 @@ def predict(model, test):
     return pred
 
 
-accuracy = accuracy_score(test_y, predict(train(rf_clf, train_x, train_y), test_x))
-print(accuracy)
-
 trained_model = train(rf_clf, train_x, train_y)
 
 predict_result = predict(trained_model, test_x)
+
+accuracy = accuracy_score(test_y, predict_result)
+print(accuracy)
