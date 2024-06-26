@@ -1,0 +1,39 @@
+2024-06-26,10:10:26 [INFO] (app.py:app:316): Parsing config file C:\Users\user\anaconda3\Lib\site-packages\tabpy\tabpy_server\app\..\common\default.conf
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter port set to "9004" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter server_version set to "2.10.0" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter evaluate_enabled set to "True" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter evaluate_timeout set to "30" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter upload_dir set to "C:\Users\user\anaconda3\Lib\site-packages\tabpy\tmp\query_objects" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter transfer_protocol set to "http" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:284): Parameter certificate_file is not set
+2024-06-26,10:10:26 [DEBUG] (app.py:app:284): Parameter key_file is not set
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter minimum_tls_version set to "TLSv1_2" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter state_file_path set to "C:\Users\user\anaconda3\Lib\site-packages\tabpy\tabpy_server" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter static_path set to "C:\Users\user\anaconda3\Lib\site-packages\tabpy\tabpy_server\static" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:284): Parameter TABPY_PWD_FILE is not set
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter log_request_context set to "false" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter max_request_size_in_mb set to "100" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter gzip_enabled set to "True" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter arrow_enabled set to "False" from default value
+2024-06-26,10:10:26 [DEBUG] (app.py:app:277): Parameter arrowflight_port set to "13622" from default value
+2024-06-26,10:10:26 [INFO] (app.py:app:381): Setting max request size to 104857600 bytes
+2024-06-26,10:10:26 [INFO] (app.py:app:545): Loading state from state file C:\Users\user\anaconda3\Lib\site-packages\tabpy\tabpy_server\state.ini
+2024-06-26,10:10:26 [DEBUG] (app.py:app:397): Static pages folder set to "C:\Users\user\anaconda3\Lib\site-packages\tabpy\tabpy_server\static"
+2024-06-26,10:10:28 [INFO] (app.py:app:510): Password file is not specified: Authentication is not enabled
+2024-06-26,10:10:28 [INFO] (app.py:app:429): Call context logging is disabled
+2024-06-26,10:10:28 [INFO] (app.py:app:197): Initializing TabPy...
+2024-06-26,10:10:28 [DEBUG] (proactor_events.py:proactor_events:633): Using proactor: IocpProactor
+2024-06-26,10:10:28 [INFO] (callbacks.py:callbacks:43): Initializing TabPy Server...
+2024-06-26,10:10:28 [DEBUG] (state.py:state:613): Loading option 'None' from section [Query Objects Service Versions]...
+2024-06-26,10:10:28 [DEBUG] (state.py:state:635): Returning value '[]'
+2024-06-26,10:10:28 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2024-06-26,10:10:28 [INFO] (app.py:app:201): Done initializing TabPy.
+2024-06-26,10:10:28 [DEBUG] (selector_events.py:selector_events:54): Using selector: SelectSelector
+2024-06-26,10:10:28 [INFO] (callbacks.py:callbacks:64): Initializing models...
+2024-06-26,10:10:28 [DEBUG] (state.py:state:613): Loading option 'None' from section [Query Objects Service Versions]...
+2024-06-26,10:10:28 [DEBUG] (state.py:state:635): Returning value '[]'
+2024-06-26,10:10:28 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2024-06-26,10:10:28 [INFO] (app.py:app:167): Web service listening on port 9004
+2024-06-26,10:23:02 [CRITICAL] (app.py:app:189): Exiting on signal 2...
+2024-06-26,10:23:02 [INFO] (app.py:app:195): Shutting down TabPy...
+2024-06-26,10:23:02 [INFO] (app.py:app:195): Shutting down TabPy...
